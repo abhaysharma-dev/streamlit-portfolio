@@ -10,7 +10,7 @@ def show_Profile():
         st.image("assets/profile.jpg",width=600)
     with col2:  
         st.markdown("""
-        ### I am a Computer Science undergraduate with hands-on experience building ML-driven data products, including: ###
+        ### I am a Computer Science undergraduate with hands-on experience working on end-to-end Data Analytics and Machine Learning projects, including: ###
          - Machine Learning
          - Data Analytics
          - NLP
