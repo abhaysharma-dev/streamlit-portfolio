@@ -22,7 +22,7 @@ def show_Profile():
     st.download_button(
         label="📄 Download My Resume",
         file_name="Abhay_Sharma_ML_Data_Analyst.pdf",
-        data=open("assets/Abhay_Sharma_ML_Data_Analyst.pdf", "rb"),
+        data=open("assets/Abhay_Sharma_ML_Data_Science.pdf", "rb"),
         mime="application/pdf",
         width= 400
     )

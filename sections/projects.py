@@ -29,7 +29,19 @@ def show_projects():
 
     st.divider()
 
-    st.subheader("3. Exploratory Data Analysis of Netflix Content(Data Analysis Project)")
+    st.subheader("3. Data Professional Survey Analysis(Power BI Project)")
+
+    st.write("""
+    - Built an interactive Power BI dashboard analyzing survey data of 600+ data professionals
+    - highlighting salary trends, job roles, programming languages, and geographic distribution.
+    - Performed data cleaning using Power Query and created DAX measures to deliver actionable insights
+    """)
+
+    st.markdown("🔗 [GitHub Repository](https://github.com/abhaysharma-dev/Powerbi-Data-Professional-Survey)")
+
+    st.divider()
+
+    st.subheader("4. Exploratory Data Analysis of Netflix Content(Data Analysis Project)")
 
     st.write("""
     - comprehensive EDA on a dataset of 8,000+ titles.

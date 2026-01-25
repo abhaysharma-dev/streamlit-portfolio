@@ -17,4 +17,4 @@ def show_skills():
         st.write("- Pandas\n- NumPy\n- Scikit-learn\n- Matplotlib")
 
         st.subheader("4. Tools")
-        st.write("- Streamlit\n- Git\n- MySQL \n- Jupyter Notebook")
+        st.write("- Power BI \n- Streamlit\n- Git\n- MySQL \n- Jupyter Notebook")
