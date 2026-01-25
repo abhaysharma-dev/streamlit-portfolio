@@ -4,7 +4,7 @@ Personal portfolio built using **Streamlit** to showcase my
 Machine Learning and Data Analytics projects.
 
 ## 🔗 Live Portfolio
-[Abhay_Sharma_ML_Portfolio](https://abhaysharma-portfolio.streamlit.app/)
+https://abhaysharma-portfolio.streamlit.app
 
 ## 🚀 Features
 - Clean and responsive Streamlit UI
