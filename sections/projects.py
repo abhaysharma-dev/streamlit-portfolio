@@ -3,7 +3,23 @@ import streamlit as st
 def show_projects():
     st.title("🚀 Projects")
 
-    st.subheader("1. ML Model Data Drift & Performance Monitoring (ML Project)")
+    st.subheader("1. Business Analytics System (NLP + ML)")
+
+    st.write("""
+    - End-to-end ML pipeline: Audio → Whisper transcription → sentiment prediction → MySQL storage
+    - Built FastAPI REST API for real-time inference and model serving
+    - Containerized full system using Docker and Docker Compose (frontend, backend, database)
+    - Deployed on AWS EC2 with production-ready architecture
+    - TF-IDF + Logistic Regression (~85% accuracy)
+    - Whisper ASR integration
+    - Streamlit-based inference dashboard
+    """)
+
+    st.markdown("🔗 [GitHub Repository](https://github.com/abhaysharma-dev/business-analytics-system)")
+
+    st.divider()
+
+    st.subheader("2. ML Model Data Drift & Performance Monitoring (ML Project)")
 
     st.write("""
     - Feature drift detection using statistical mean shift
@@ -13,19 +29,6 @@ def show_projects():
     """)
 
     st.markdown("🔗 [GitHub Repository](https://github.com/abhaysharma-dev/ML-Model-Drift-Detection-Performance-Monitoring-System)")
-
-    st.divider()
-
-    st.subheader("2. Business Analytics System (NLP + ML)")
-
-    st.write("""
-    - Call Recordings transcripts sentiment analysis
-    - TF-IDF + Logistic Regression (~85% accuracy)
-    - Whisper ASR integration
-    - Streamlit-based inference dashboard
-    """)
-
-    st.markdown("🔗 [GitHub Repository](https://github.com/abhaysharma-dev/business-analytics-system)")
 
     st.divider()
 
