@@ -14,7 +14,7 @@ def show_skills():
 
     with col2:
         st.subheader("2. Libraries")
-        st.write("- Pandas\n- NumPy\n- Scikit-learn\n- FastAPI\n- Matplotlib")
+        st.write("- Pandas\n- NumPy\n- Scikit-learn\n- FastAPI\n- Matplotlib\n- Evidently AI")
 
         st.subheader("4. Tools")
         st.write("- Power BI \n- Streamlit\n- Docker\n- AWS EC2\n- MySQL\n- Jupyter Notebook")

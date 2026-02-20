@@ -10,8 +10,7 @@ def show_Profile():
         st.image("assets/profile.jpg",width=600)
     with col2:  
         st.markdown("""
-        ### I am a Computer Science undergraduate with hands-on experience building and deploying end-to-end Machine Learning systems. 
-       #### I have developed production-ready ML applications using FastAPI, Docker, and AWS EC2. 
+        #### I am a Computer Science undergraduate with hands-on experience building and deploying end-to-end Machine Learning systems. 
          - Machine Learning model development and deployment  
          - REST API development using FastAPI
          - Docker containerization

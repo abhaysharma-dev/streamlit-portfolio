@@ -22,10 +22,13 @@ def show_projects():
     st.subheader("2. ML Model Data Drift & Performance Monitoring (ML Project)")
 
     st.write("""
-    - Feature drift detection using statistical mean shift
+    - Feature drift detection using statistical baseline monitoring (mean & distribution shift)
     - Prediction drift monitoring using positive-rate change
-    - Logistic Regression pipeline with ColumnTransformer
-    - Streamlit dashboard with health status(STABLE / MONITOR / HIGH RISK)
+    - Integrated Evidently AI for Data Drift, Target Drift, and Classification Performance monitoring
+    - Automated prediction generation using saved ML pipeline (ColumnTransformer + Random Forest)
+    - Real-time drift visualization via interactive Streamlit dashboard
+    - Model health status classification (STABLE / MONITOR / HIGH RISK)
+    - Supports production-like workflow with reference vs incoming dataset comparison
     """)
 
     st.markdown("🔗 [GitHub Repository](https://github.com/abhaysharma-dev/ML-Model-Drift-Detection-Performance-Monitoring-System)")
