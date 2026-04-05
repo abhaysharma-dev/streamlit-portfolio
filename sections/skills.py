@@ -10,11 +10,11 @@ def show_skills():
         st.write("- Python\n- SQL\n- C++")
 
         st.subheader("3. ML & NLP")
-        st.write("- Logistic Regression\n- TF-IDF\n- Text Preprocessing \n- Feature Engineering \n - Model Evaluation (Accuracy, Precision, Recall)\n - Hyperparameter Tuning ")
+        st.write("- Word Embeddings\n- Text Preprocessing \n- Feature Engineering \n - Model Evaluation (Accuracy, Precision, Recall)\n - Hyperparameter Tuning \n - Model Deployment")
 
     with col2:
         st.subheader("2. Libraries")
-        st.write("- Pandas\n- NumPy\n- Scikit-learn\n- FastAPI\n- Matplotlib\n- Evidently AI")
+        st.write("- Pytorch\n- Pandas\n- NumPy\n- Scikit-learn\n- FastAPI\n- Matplotlib\n- Evidently AI \n- Opencv(Learning)")
 
         st.subheader("4. Tools")
         st.write("- Power BI \n- Streamlit\n- Docker\n- AWS EC2\n- MySQL\n- Jupyter Notebook")
